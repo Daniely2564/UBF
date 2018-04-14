@@ -1,0 +1,143 @@
+/* big tablet to 1200px (widths smaller than 1140px) */
+@media only screen and (max-width: 1200px) {
+    header ul li{
+        margin-right: 20px;
+    }
+    
+    header ul li:first-of-type{
+        margin-right : 0px;
+    }
+    
+    header img{
+        margin-left: 15px;
+    }
+    
+    footer{
+        font-size: 90%;
+    }
+    
+    footer li{
+        margin-left: 13px;
+        margin-right: 5px;
+    }
+    
+    .row{
+        margin: 0 -20px;
+    }
+    
+    #btn1{
+        left: 6vh;
+    }
+    #btn2{
+        left: 6vh;
+    }
+}
+
+
+/* Small tablets to big tablets: from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+    html{
+        font-size: 100%;
+    }
+    
+    .row{
+        margin: 0 -100px;
+    }
+    
+    #btn1{
+        left: 5vh;
+    }
+    
+    #btn1 a{
+        padding: 18px 15px;
+    }
+    
+    #btn2{
+        left: 5vh;
+        top: 77vh;
+    }
+    
+    #btn2 a{
+        padding: 18px 14px;
+    }
+    
+    header ul li{
+        margin-right: 25px;
+        font-size: 110%;
+    }
+    
+    header h4{
+        font-size: 110%;
+    }
+    
+    header img{
+        width: 60px;
+        height: auto;
+    }
+    
+    header h4{
+        margin-top: 5px;
+        padding-left: 3px;
+    }
+    
+    footer li{
+        margin: 5px 8px;
+    }
+    
+    section{
+        padding-top: 30px;
+    }
+    
+}
+
+
+
+
+/* Samll phones to small tablets 481 to 756px */
+@media only screen and (max-width: 767px) {
+    html{
+        font-size: 90%;
+    }
+    
+    #btn1{
+        top: 87vh;
+        left: 7vh;
+    }
+    
+    #btn2{
+        top: 87vh;
+        left: 35vh;
+    }
+}
+
+
+
+
+/* Small phones: from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    header{
+        height: 37vh;
+        background-size: contain;
+        background-attachment:scroll;
+    }
+    
+    header ul li{
+        display: none;
+    }
+    #btn1{
+        top: 32vh;
+        left: 2vh;
+    }
+    #btn1 a{
+        padding: 10px 14px;
+    }
+    
+    #btn2{
+        top: 32vh;
+        left: 25vh;
+    }
+    
+    #btn2 a{
+        padding: 10px 15px;
+    }
+}
